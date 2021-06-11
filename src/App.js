@@ -9,11 +9,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <Router className="App">
           <Nav />
-          <Shop />
+          <Route path ="home" />
           <About /> 
-      </div>
+      </Router>
     );
   }
 }
